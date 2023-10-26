@@ -1,5 +1,6 @@
 import "./style.css"
 import React from 'react'
+import Carrinho from '../btn-kart'
 
 function NavBar() {
   return (
@@ -9,7 +10,7 @@ function NavBar() {
           <button classname='info'>Produtos</button>
           <button classname='info'>Contato</button>
           <button classname='info'>Login</button>
-          <button classname='info'>Carrinho</button>
+          <Carrinho></Carrinho>
         </div>
     </div>
   )
