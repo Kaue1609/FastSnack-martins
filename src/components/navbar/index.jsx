@@ -5,7 +5,7 @@ import Carrinho from '../btn-kart'
 function NavBar() {
   return (
     <div className='nav'>
-        <h1 className='title'>FastSnack</h1>
+        <h1 className='title'>Cookie'Store</h1>
         <div className='opcoes'>
           <button classname='info'>Produtos</button>
           <button classname='info'>Contato</button>

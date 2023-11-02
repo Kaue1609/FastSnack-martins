@@ -1,11 +1,12 @@
 import React from 'react'
 import ContadorDeItem from '../itemCounter'
+import ItemList from '../ItemList'
 
 function itemListContainer() {
   return (
     <div>
         <h2>Produtos</h2>
-        <h3>Cookie de Chocolate</h3>
+        <ItemList />
         <ContadorDeItem/>
     </div>
   )

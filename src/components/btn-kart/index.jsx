@@ -1,11 +1,11 @@
 import React from 'react'
 import './style.css'
-import kart from '../../assets/icons/carrinho.png'
+import Kart from '../../assets/icons/carrinho.png'
 
 function carrinho() {
   return (
     <div>
-        <button><img className="kart-icon" src= {kart}></img></button>
+        <button><img className="kart-icon" src={Kart} alt=''></img></button>
     </div>
   )
 }
