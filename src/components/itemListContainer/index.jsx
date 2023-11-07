@@ -4,7 +4,7 @@ import ItemList from '../ItemList'
 
 function itemListContainer() {
   return (
-    <div>
+    <div className='container'>
         <h2>Produtos</h2>
         <ItemList />
         <ContadorDeItem/>
